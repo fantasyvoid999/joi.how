@@ -48,7 +48,7 @@ export const GameHypno = () => {
       exit={{ opacity: 0.1 }}
       transition={{
         ease: [0.19, 1, 0.22, 1],
-        duration: delay * 0.001 * 8,
+        duration: delay * 0.001 * 2,
       }}
     >
       {phrase}
