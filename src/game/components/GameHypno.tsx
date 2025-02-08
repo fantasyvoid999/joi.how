@@ -11,6 +11,7 @@ const StyledGameHypno = motion(styled.div`
   font-size: 4rem;
   font-weight: bold;
   -webkit-text-stroke: black 1px;
+  color: red;
 `);
 
 export const GameHypno = () => {
@@ -47,7 +48,7 @@ export const GameHypno = () => {
       exit={{ opacity: 0.3 }}
       transition={{
         ease: [0.19, 1, 0.22, 1],
-        duration: delay * 0.001 * 0.5,
+        duration: delay * 0.001 * 1,
       }}
     >
       {phrase}
