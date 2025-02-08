@@ -11,6 +11,7 @@ const StyledGameHypno = motion(styled.div`
   font-size: 4rem;
   font-weight: bold;
   -webkit-text-stroke: black 1px;
+  color: red;
 `);
 
 export const GameHypno = () => {
