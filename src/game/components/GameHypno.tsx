@@ -43,12 +43,12 @@ export const GameHypno = () => {
   return (
     <StyledGameHypno
       key={phrase}
-      initial={{ opacity: 0.8 }}
+      initial={{ opacity: 0.6 }}
       animate={{ opacity: 0 }}
-      exit={{ opacity: 0.8 }}
+      exit={{ opacity: 0.6 }}
       transition={{
-        ease: [0.4, 0.6, 8, 1],
-        duration: delay * 0.001 * 1.2,
+        ease: [0.19, 1, 0.22, 1],
+        duration: delay * 0.001 * 1,
       }}
     >
       {phrase}
