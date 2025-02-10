@@ -31,7 +31,7 @@ export const GameHypno = () => {
     setCurrent(Math.floor(Math.random() * HypnoPhrases[hypno].length));
   }, [hypno, setCurrent]);
 
-  const delay = 4000;
+  const delay = 3200;
 
   const enabled = useMemo(
     () => phase === GamePhase.active && hypno !== GameHypnoType.off,
