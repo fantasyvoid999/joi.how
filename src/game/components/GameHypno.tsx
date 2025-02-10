@@ -47,7 +47,7 @@ export const GameHypno = () => {
       animate={{ opacity: 0 }}
       exit={{ opacity: 1 }}
       transition={{
-        ease: [0.19, 1, 0.22, 1],
+        ease: [0.19, 1, 0.44, 1],
         duration: delay * 0.001 * 1.2,
       }}
     >
