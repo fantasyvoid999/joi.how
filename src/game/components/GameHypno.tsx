@@ -31,7 +31,7 @@ export const GameHypno = () => {
     setCurrent(Math.floor(Math.random() * HypnoPhrases[hypno].length));
   }, [hypno, setCurrent]);
 
-  const delay = 3200;
+  const delay = 3000;
 
   const enabled = useMemo(
     () => phase === GamePhase.active && hypno !== GameHypnoType.off,
@@ -48,7 +48,7 @@ export const GameHypno = () => {
       exit={{ opacity: 1 }}
       transition={{
         ease: [0.19, 1, 0.22, 1],
-        duration: delay * 0.001 * 1,
+        duration: delay * 0.001 * 1.2,
       }}
     >
       {phrase}
