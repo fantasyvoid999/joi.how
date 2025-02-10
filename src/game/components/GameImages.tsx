@@ -105,7 +105,7 @@ export const GameImages = () => {
               scale: [1.2, 1.4, 1.2],
             }}
             transition={{
-              duration: switchDuration / 1000,
+              duration: switchDuration / 100,
               repeat: Infinity,
             }}
           >
