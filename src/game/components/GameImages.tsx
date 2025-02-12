@@ -89,7 +89,7 @@ export const GameImages = () => {
   }, [imagesTracker]);
 
   const switchDuration = useMemo(() => {
-    return Math.max((100 - intensity) * 40, 2000);
+    return Math.max((100 - intensity) * 30, 2000);
   }, [intensity]);
 
   useEffect(() => switchImage(), [switchImage]);
