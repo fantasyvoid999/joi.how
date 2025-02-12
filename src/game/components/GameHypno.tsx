@@ -10,8 +10,8 @@ const StyledGameHypno = motion(styled.div`
   pointer-events: none;
   font-size: 4rem;
   font-weight: bold;
-  -webkit-text-stroke: black 1.5px;
-  color: white;
+  -webkit-text-stroke: black 1px;
+  color: red;
 `);
 
 export const GameHypno = () => {
